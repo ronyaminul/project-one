@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section start  */
+.container {
+    background-image: url("../images/banner/banner2.png");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+}
+
+.text-container {
+    margin-right: 200px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #151414;
+}
+
+.banner-description {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.primary-btn {
+    color: white;
+    border: none;
+    background-color: rgb(248, 86, 58);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* banner section end */
+
+
+/* about section start  */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 45px;
+}
+
+.text-section {
+    margin-top: 30px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.titel-description {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.list-style li {
+    list-style-type: lower-roman;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* about section end  */
+
+
+/* plan section start  */
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    margin: 75px;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.plan-menu {
+    text-align: center;
+
+}
+
+.title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* plan section end  */
+
+
+/* card section start  */
+.card-container {
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1020px;
+    height: 230px;
+    padding: 45px;
+    margin-top: 55px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.secondary-btn {
+    border: none;
+    padding: 10px 18px;
+    font-size: 18px;
+    color: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* card section start  */
+
+
+/* footer section start  */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 70px 45px;
+}
+
+.social-link-section {
+    margin-left: -60px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.email,
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+input[type] {
+    width: 325px;
+    padding: 10px 20px;
+    border: 0.5px ridge white;
+    background-color: black;
+    margin-bottom: 16px;
+}
+
+/* footer section start  */
